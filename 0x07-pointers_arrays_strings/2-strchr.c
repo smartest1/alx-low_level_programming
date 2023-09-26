@@ -9,7 +9,7 @@ char *_strchr(char *s, char c)
 {
 	unsigned int count = 0;
 
-	for (; *(s + count) != '\0'; i++)
+	for (; *(s + count) != '\0'; count++)
 		if (*(s + count) == c)
 			return (s + count);
 	if (*(s + count) == c)
